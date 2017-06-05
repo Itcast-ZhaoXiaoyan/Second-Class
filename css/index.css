@@ -1,0 +1,162 @@
+body,.header,.logo-left,.logo-right{
+	margin:0;
+	padding:0;
+}
+body{
+	width: 100%;
+	margin:0 auto;
+	height:800px;
+}
+/*头部分，即上部分*/
+.header{
+	width:800px; margin:0 auto;
+			/*margin-top: 10px;
+			margin-left: 10%;*/
+			/*border:1px solid #cbcbcb;*/
+	height:155px;
+}
+
+ .logo-left{
+	 height:24px;  
+}
+/*header中的背景图片*/
+img{
+	width:800px;
+	height:155px;
+}
+/*header下的标题区域h2*/
+h2{
+	padding-left: 30px;
+	font-family:"arial, helvetica, sans-serif";
+	padding-top:40px; 
+	font-size: 30px;
+	color:cornflowerblue;
+}
+/*中间主体：content内容部分*/
+.content{
+	width:800px; margin:0 auto;
+	/*margin-top: 1px;*/
+	height: 600px;
+}
+		/*内容左边——导航栏：包含四个部分区域(ul，li，a)*/
+.content-left{
+	float:left;
+	width:155px;
+	height:210px;
+	line-height: 24px;
+	background-color:beige;
+	font-size: 18px;
+	box-sizing:border-box;
+	/*border:1px #cbc solid;*/
+	top:40px;
+	margin: 0;	
+}
+.content-left ul li { float:left; margin-top:10px;list-style:none; }
+.content-left ul li a { display:block; width:78px; height:22px; line-height:24px; text-align:center; color:#7CBCD6;text-decoration:none; }
+.content-left ul li a:hover{ background-color:cornsilk;}
+
+/*内容右边——1.成绩公示界面*/
+.content-right{
+	float:right;
+	width:645px;
+	height:595px;
+	/*border:1px #CCBBCC solid;*/
+	margin: 0;
+	font-family: "arial, helvetica, sans-serif";
+}
+/*content上半部分：选择日期及班级*/
+.right-check{
+	font-family: "arial narrow";
+	color:#1D3C41;
+	margin-top: 20px;
+	margin-left: 20px;
+	font-size: 18px;	
+}
+.right-check select{
+	height: 20px;
+	width:120px;
+	font-size: 14px;
+	font-family:"arial rounded mt bold";
+	text-align: center;
+}
+/*content上半部分：选择按钮进行检索*/
+.right-check button{
+	margin-left: 100px;
+	font-size: 13px;
+	color:#1D3C41;
+}
+/*content下半部分：表格table*/
+.right-tab{
+	font-family: "arial, helvetica, sans-serif";
+	font-size: 20px;
+	text-align: center;
+	width:100%;
+	height:auto;
+	border:1px solid  #CCBBCC;
+	border-collapse: collapse;
+	/*cellspacing:0;*/
+	color:#CCBBCC;
+	margin:5px 0;
+	/*background-color: #F4F4F4;	*/
+	border-width:1 1 1 1;
+}
+/*content下半部分：table表格标题caption的设置*/
+.right-tab caption{
+	padding-top: 20px;
+	font-size: 24px;
+	font-family: "arial narrow";
+	color:#1D3C41;
+}
+/*content下半部分：table表格中th中首行栏设置*/
+.right-tab th{
+				/*margin-top: 20px;*/
+				color:#7CBCD6;
+				padding: 5px 0;
+				border: 1px solid #f4f4f4;
+				background: #F4F4F4;
+				margin-top:10px;
+			}
+}
+/*对于表格table中*/
+.tbd {
+    	overflow-y:auto; 
+    	width:100%;
+    	height:120px;
+}
+/*下半部分table表格主要内容部分设置，即td*/
+.right-tab  td{
+				padding: 6px 0;
+				border: 1px solid #f4f4f4;
+}
+
+
+/*尾部部分footer*/
+.footer{
+	width: 800px;
+	height:auto;
+	/*margin-top: 2px;*/
+	border:1px #cbc solid;
+	overflow: hidden;
+	margin:0 auto;	
+	background-color: #ccc;
+}
+/*尾部部分footer里对于其主要字体p设置*/
+.footer p{
+	text-align: center;
+	font-family: "arial, helvetica, sans-serif";
+	font-size: 16px;
+}
+
+/*内容右边——2.密码设置--重置密码界面*/
+.right-p{
+	margin-top: 20px;
+	margin-left: 20px;
+	font-family: "arial, helvetica, sans-serif";
+	font-size: 28px;
+	color: #7CBCD6;
+}
+.right-form{
+	height:auto;
+	width:250px;
+	line-height: 20px;
+}
